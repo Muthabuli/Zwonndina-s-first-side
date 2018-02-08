@@ -1,0 +1,59 @@
+h1 {
+  color: black;
+  font-family: "Indie Flower"
+}
+p {
+  color: purple;
+  width: 500px;
+  text-align: center;
+}
+h1 {
+  font-size: 60px;
+  font-style: italic;
+}
+li {
+  color: black;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+  font-style: italic;
+  text-align: center;
+}
+html {
+  background-color: #424242;
+  background-image: url(../images/me1.jpg);
+}
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-image: url(../images/2.jpg);
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+  font-style: italic;
+
+}
+img {
+  display:inline-block;
+  margin: 0 auto;
+  border: 4px solid black;
+  border-radius: 8px;
+  shape-image-threshold: 30%;
+  margin:0 auto;
+  display: block;
+  margin: 0 auto;
+
+
+}
+h1, h2, p, li {text-shadow: 3px 3px 3px blue;
+}
+h2, h1, p, li {
+  color: black
+}
+
+
+h2{
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
