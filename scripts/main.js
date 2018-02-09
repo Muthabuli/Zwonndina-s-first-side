@@ -9,7 +9,7 @@ myImage.onclick = function() {
     }
 }
 
-var myButton = document.querySelector('button');
+var myButton = document.getElementById('button');
 var myHeading = document.querySelector('h1');
 
 function setUserName() {

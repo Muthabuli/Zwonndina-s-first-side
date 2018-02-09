@@ -21,22 +21,24 @@ li {
 }
 html {
   background-color: #424242;
-  background-image: url(../images/me1.jpg);
+  background-image: url(../images/me.jpg);
+
 }
 body {
   width: 600px;
   margin: 0 auto;
-  background-image: url(../images/2.jpg);
   padding: 0 20px 20px 20px;
   border: 5px solid black;
+  border-radius: 80px;
   font-style: italic;
+  background-color: rgba(221, 160, 221, 0.6);
 
 }
 img {
   display:inline-block;
   margin: 0 auto;
-  border: 4px solid black;
-  border-radius: 8px;
+  border: 4px solid purple
+  border-radius: 10px;
   shape-image-threshold: 30%;
   margin:0 auto;
   display: block;
@@ -56,4 +58,23 @@ h2{
 }
 h1{
   text-align: center;
+}
+
+p{
+  padding: 50px;
+}
+#button{
+  background-color: purple;
+  width: 80px;
+  text-align: center;
+  border-radius: 30px;
+  padding: 15px;
+  margin:0 auto;
+
+
+ }
+#button:hover{
+  background-color: white;
+  cursor: pointer;
+  
 }
